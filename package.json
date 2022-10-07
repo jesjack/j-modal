@@ -1,0 +1,32 @@
+{
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "eslint": "^8.24.0",
+    "typescript": "^4.8.4"
+  },
+  "name": "j-modal",
+  "version": "1.0.0",
+  "description": "Esto se supone que es un modal para mostrar textos así en la pantalla del navegador, así como en sweetalert.",
+  "main": "bin/index.js",
+  "bin": {
+    "j-modal": "bin/index.js"
+  },
+  "scripts": {
+    "test": "node bin/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesjack/j-modal.git"
+  },
+  "keywords": [
+    "modal",
+    "javascript"
+  ],
+  "author": "jesjack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesjack/j-modal/issues"
+  },
+  "homepage": "https://github.com/jesjack/j-modal#readme"
+}
